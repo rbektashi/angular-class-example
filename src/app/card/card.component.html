@@ -1,0 +1,8 @@
+<li class="card">
+    <p>Name:{{contactRef.name}}</p>
+    <p>Company:{{contactRef.company}}</p>
+    <p>Emergency:{{contactRef.emergency}}</p>
+    <p>Number:{{contactRef.number}}</p>
+    <p>Birthday:{{contactRef.birthday | date}}</p>
+    <button class="remove-button" (click)="emitDeleteEvent()">X</button>
+</li>
